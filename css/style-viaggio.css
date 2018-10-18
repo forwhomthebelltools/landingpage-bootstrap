@@ -1,0 +1,281 @@
+html {
+	margin: 0;
+	background-color: #eff1f4;
+}
+
+body {
+	/*background: url('https://www.wikihow.com/images/9/95/Make-a-Panzerotti-Final.jpg') no-repeat center fixed;
+	background-size: cover;*/
+	height: auto;
+	width: auto;
+	margin:0;
+}
+
+.navbar {
+    background-color: #0c111c;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    height: auto;
+}
+
+.navbar a {
+	margin-right: 50px;
+	padding: 10px 10px;
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+	float:left; 
+	width: 50px; 
+	height: 40px;
+	margin-top: 10px;
+	margin-left:50px;
+	margin-bottom: 10px;
+}
+
+.main-image {
+	background: url('http://nisifilters.it/wp-content/uploads/2016/12/Messa-a-Fuoco-Paesaggio.jpg') no-repeat; 
+	background-size: cover; 
+	height: 100%; 
+	display:flex; 
+	flex-direction: row; 
+	flex-wrap: nowrap; 
+	justify-content: flex-end; 
+	align-items: center;
+}
+
+.image-cuba {
+	background: url('https://siviaggia.files.wordpress.com/2015/07/cuba-1217.jpg') no-repeat center fixed; 
+	background-size: cover; 
+	height: 100%;
+	display:flex; 
+	flex-direction: row; 
+	flex-wrap: nowrap; 
+	justify-content: center; 
+	align-items: center;
+}
+
+.cuba-snippet {
+	width: auto;
+	padding:10px 10px 10px 10px;
+	background-color: transparent;
+	height: auto;
+}
+
+.cuba-title {
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Prociono', serif;
+    color: #ffffff;
+    font-size: 51px;
+    line-height: 0.5;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.cuba-para {
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.container-button {
+	background-color: transparent;  
+	height: auto;
+	display:flex; 
+	flex-direction: row; 
+	flex-wrap: nowrap; 
+	justify-content: center; 
+	align-items: center;
+	padding: 10px 10px;
+}
+
+.cuba-button {
+	font-family: 'Lato', sans-serif;
+	margin: 20px 20px;
+	background-color: transparent;
+	font-weight: 400;
+    font-style: normal;
+    color: black;
+	border: 1px solid #ffffff;;
+	border-radius: 5px;
+	padding: 10px 30px;
+	width: auto;
+	height: auto;
+}
+
+.main-title {
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Prociono', serif;
+    color: #252525;
+    font-size: 30px;
+    line-height:1.2;
+    letter-spacing: 1px;
+}
+
+.discount-image {
+	margin-left: -35%;
+}
+
+.form-snippet {
+	margin-right: 50px;
+	width: 30%;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding:10px 10px 10px 10px;
+	background-color: white;
+	height: auto;
+}
+
+input[type=text] {
+	width: 100%;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    height: 67px;
+}
+
+input[type=submit] {
+	width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-title {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.box {
+	border: 1px solid #b5b8bc;
+	width: 27%;
+	margin: 10px 10px 30px 10px;
+}
+
+.cuba-box {
+	border: 1px solid #b5b8bc;
+	width: 27%;
+	margin: 10px 10px 30px 10px;
+	border: 3px solid #e1e3e8; 
+	text-align: center; 
+	padding: 15px 15px; 
+	width: 20%;
+}
+
+/*transition on mouseover */
+.box:hover {
+    background-color: #d4e1f4;
+    -webkit-transition: background-color 700ms linear;
+    -ms-transition: background-color 700ms linear;
+    transition: background-color 700ms linear;
+}
+
+.box a {
+	color: gray;
+	text-decoration: none;
+}
+
+.box a:hover, a:active {
+    color: gray;
+}
+
+.box p {
+	text-align: center;
+	margin: 10px 10px;
+}
+
+.box h2 {
+	text-align: center;
+}
+
+.row_container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.row_cuba {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+
+.box-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.box-text {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.row_para {
+	text-align: center;
+	padding: 30px 30px;
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    color: #6b7985;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+}
+
+.cuba-video {
+	clear:both;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.cuba-price {
+	text-align: center;
+	font-size: 40px;
+	color: #ed4f28;
+}
+
+.cuba-divisor {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 30px;	
+    border-color: #ed4f28;
+}
+
+footer {
+	color: white;
+	background-color: #0c111c;
+	clear:both;
+	padding: 10px 10px;
+	text-align: justify;
+	height: auto;
+}

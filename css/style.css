@@ -1,0 +1,41 @@
+html, body {
+	margin: 0;
+}
+
+nav {
+	background-color: gray;
+}
+
+footer {
+	background-color: black;
+	color:white;
+	margin-top: 20px;
+	padding: 15px;
+}
+
+.card:hover {
+	background-color: #d4e1f4;
+    -webkit-transition: background-color 700ms linear;
+    -ms-transition: background-color 700ms linear;
+    transition: background-color 700ms linear;
+}
+
+#card-price:hover {
+	background-color: white;
+}
+
+#home{
+  	background-image: url('http://nisifilters.it/wp-content/uploads/2016/12/Messa-a-Fuoco-Paesaggio.jpg');
+  	margin-top: 50px;
+  	text-align: center;
+  	color: white;
+	height: 100%;
+}
+
+#jumbotron-viaggio {
+	background-image: url('http://nisifilters.it/wp-content/uploads/2016/12/Messa-a-Fuoco-Paesaggio.jpg');
+  	margin-top: 50px;
+  	text-align: center;
+  	color: white;
+}
+
